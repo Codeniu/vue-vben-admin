@@ -18,6 +18,7 @@ const routes: RouteRecordRaw[] = [
       icon: VBEN_LOGO_URL,
       order: 9998,
       title: $t('demos.vben.title'),
+      hideInMenu: true,
     },
     name: 'VbenProject',
     path: '/vben-admin',
