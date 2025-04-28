@@ -10,4 +10,13 @@ export const overridesPreferences = defineOverridesPreferences({
   app: {
     name: import.meta.env.VITE_APP_TITLE,
   },
+  copyright: {
+    companyName: '九域腾龙信息工程有限公司',
+    companySiteLink: '',
+    date: '2025',
+    enable: true,
+  },
+  theme: {
+    mode: 'light',
+  },
 });
