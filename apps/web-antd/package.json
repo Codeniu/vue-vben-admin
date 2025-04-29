@@ -13,9 +13,10 @@
     "#/*": "./src/*"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@vben-core/menu-ui": "workspace:*",
     "@vben/access": "workspace:*",
     "@vben/common-ui": "workspace:*",
-    "@vben-core/menu-ui": "workspace:*",
     "@vben/constants": "workspace:*",
     "@vben/hooks": "workspace:*",
     "@vben/icons": "workspace:*",
@@ -31,6 +32,9 @@
     "@vueuse/core": "catalog:",
     "ant-design-vue": "catalog:",
     "dayjs": "catalog:",
+    "fabric": "6.6.4",
+    "nanoid": "5.1.5",
+    "number-precision": "1.6.0",
     "pinia": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:"

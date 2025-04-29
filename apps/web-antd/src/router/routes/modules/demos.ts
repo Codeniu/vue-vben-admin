@@ -21,6 +21,22 @@ const routes: RouteRecordRaw[] = [
         path: '/demos/ant-design',
         component: () => import('#/views/demos/antd/index.vue'),
       },
+      {
+        meta: {
+          title: '办公室编辑',
+        },
+        name: 'OfficeEditor',
+        path: '/demos/office-editor',
+        component: () => import('#/views/demos/office-editor/index.vue'),
+      },
+      {
+        meta: {
+          title: '办公室查看',
+        },
+        name: 'OfficeViewer',
+        path: '/demos/office-viewer',
+        component: () => import('#/views/demos/office-viewer/index.vue'),
+      },
     ],
   },
 ];
