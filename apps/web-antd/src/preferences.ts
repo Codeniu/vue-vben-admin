@@ -9,6 +9,8 @@ export const overridesPreferences = defineOverridesPreferences({
   // overrides
   app: {
     name: import.meta.env.VITE_APP_TITLE,
+    defaultAvatar:'', // 默认头像
+    enablePreferences:false, // 是否启用配置
   },
   copyright: {
     companyName: '九域腾龙信息工程有限公司',
@@ -18,5 +20,19 @@ export const overridesPreferences = defineOverridesPreferences({
   },
   theme: {
     mode: 'light',
+  },
+  logo: {
+    enable: true,
+    source: '/logo.png',
+  },
+  widget: {
+    fullscreen: false,
+    globalSearch: false,
+    languageToggle: false,
+    lockScreen: false,
+    notification: false, // 通知
+    refresh: false,
+    themeToggle: false,
+    sidebarToggle: true,
   },
 });

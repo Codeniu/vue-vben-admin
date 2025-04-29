@@ -15,7 +15,7 @@ const routes: RouteRecordRaw[] = [
     children: [
       {
         meta: {
-          title: $t('demos.antd'),
+          title: '组件使用演示',
         },
         name: 'AntDesignDemos',
         path: '/demos/ant-design',
