@@ -64,12 +64,14 @@ setupVbenVxeTable({
 
     // 表格配置项可以用 cellRender: { name: 'CellLink' },
     vxeUI.renderer.add('CellLink', {
-      renderTableDefault(renderOpts) {
+      renderTableDefault(renderOpts, { column, row }) {
         const { props } = renderOpts;
+        const value = get(row, column.field);
+
         return h(
           Button,
           { size: 'small', type: 'link' },
-          { default: () => props?.text },
+          { default: () => props?.text || value },
         );
       },
     });

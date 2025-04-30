@@ -2,7 +2,7 @@
   <div class="editor">
     <div class="layout-content flex">
       <div class="layout-content-center">
-        <!-- <div class="center-header"><CanvasHeader /></div> -->
+        <div class="center-header"><CanvasHeader /></div>
 
         <div class="center-body">
           <CanvasCenter />
@@ -16,7 +16,7 @@
 
 <script lang="ts" setup>
 import CanvasCenter from './CanvasCenter/index.vue';
-// import CanvasHeader from './CanvasHeader/index.vue'
+import CanvasHeader from './CanvasHeader/index.vue';
 </script>
 
 <style lang="less" scoped>

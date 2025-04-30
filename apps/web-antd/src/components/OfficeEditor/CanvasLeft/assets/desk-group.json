@@ -89,7 +89,7 @@
       "paintFirst": "fill",
       "skewX": 0,
       "skewY": 0,
-      "src": "http://localhost:5173/src/components/OfficeEditor/CanvasLeft/assets/desk-no-shadow.svg",
+      "src": "http://localhost:5666/desk-no-shadow.svg",
       "crossOrigin": null,
       "filters": []
     },
@@ -137,7 +137,7 @@
       "paintFirst": "fill",
       "skewX": 0,
       "skewY": 0,
-      "src": "http://localhost:5173/src/components/OfficeEditor/CanvasLeft/assets/desk-no-shadow.svg",
+      "src": "http://localhost:5666/desk-no-shadow.svg",
       "crossOrigin": null,
       "filters": []
     }

@@ -5,7 +5,7 @@ import { $t } from '#/locales';
 const routes: RouteRecordRaw[] = [
   {
     meta: {
-      icon: 'ion:storefront-sharp',
+      icon: 'svg:bell',
       order: 9997,
       title: $t('office.title'),
     },
